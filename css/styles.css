@@ -30,9 +30,25 @@
 
 .result-text {
   font-size: 18px;
-  padding-top: 5%;
+  padding: 5% 5%;
+}
+
+.result-text ul {
+  list-style-position: inside;
+  text-indent: -2em;
+  padding-left: 2;
+}
+
+.result-text li {
+  padding: 5px 0;
 }
 
 .survey-result {
   display: none;
+}
+
+.bottom-line {
+  display: block;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
 }

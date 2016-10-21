@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico"/>
     <script src="js/jquery-3.1.1.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
     <title>Programming Language Survey</title>
@@ -12,7 +13,7 @@
       <div class="page-header">
         <h1>Epicodus Language Track Survey</h1>
       </div>
-      <p>Welcome to the Epicodus Language Track Survey. Choosing which language to learn can be difficult for beginning programmers so we've provided you with a simple survey to fill out that will tell you which language we think best fits your interests.</p>
+      <p><span class="sub-header">Welcome to the Epicodus Language Track Survey. Choosing which language to learn can be difficult for beginning programmers so we've provided you with a simple survey to fill out that will tell you which language we think best fits your interests.</span></p>
 
       <div class="survey-box">
         <div class="panel panel-primary">
@@ -25,7 +26,7 @@
             </div>
             <div class="question-body">
               <div class="radio">
-                <label><input id="apps" type="radio" name="apps">I want to build apps!</label>
+                <label><input id="apps" type="radio" name="apps">I want to build applications!</label>
               </div>
               <div class="radio">
                 <label><input type="radio" name="apps">I want to build websites!</label>
@@ -164,7 +165,8 @@
           </div>
         </div>
       </div>
-      <div id="jscript" class="survey-result">
+<!-- javacript result originally defined as the default option if survey wasn't completed -->
+      <!-- <div id="jscript" class="survey-result">
         <div class="row result-row">
           <div class="col-md-5">
             <img class="img-responsive" src="img/jscript.png" alt="javascript logo">
@@ -180,7 +182,8 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
+      <div id="bottom-line" class="bottom-line"></div>
     </div>
   </body>
 </html>

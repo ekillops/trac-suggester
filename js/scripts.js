@@ -31,6 +31,7 @@ $(document).ready(function() {
     var curly = $('#curly').is(':checked');
 
     chooseLang(apps, mobile, large, design);
+    
   });
 
 });
