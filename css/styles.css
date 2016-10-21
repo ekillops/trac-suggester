@@ -10,11 +10,23 @@
   padding-right: 15px;
 }
 
-.survey-result img {
-  max-width: 100%;
-  height: auto;
+.result-row {
+  height: 300px;
+}
+
+.result-row img {
+  max-height: 275px;
+  width: auto;
+}
+
+.result-wrapper {
+  padding: 5% 0;
 }
 
 .result-text {
-  vertical-align: middle;
+  padding: 10% 0;
+}
+
+.survey-result {
+  display: none;
 }
