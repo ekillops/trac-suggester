@@ -1,22 +1,27 @@
 .panel-body {
   padding: 0px;
 }
+
 .question-title {
   background-color: #BEDAF6;
   text-indent: 15px;
 }
+
 .question-body {
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .result-row {
+  margin-top: 20px;
   height: 300px;
 }
 
 .result-row img {
   max-height: 275px;
   width: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .result-wrapper {
@@ -24,7 +29,8 @@
 }
 
 .result-text {
-  padding: 10% 0;
+  font-size: 18px;
+  padding-top: 5%;
 }
 
 .survey-result {
